@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#999;
+	margin:0;
+	padding:0;
+	background-image:url(Nobelmiddag_webb.jpg);
+}
+
+#storbox{
+	background-color:#FFF;
+	width:80%;
+	height:100%;
+	position:absolute;
+	margin-left:10%;
+}
+
+header{
+	background-color:#000;
+	width:100%;
+	height:15%;
+	overflow:hidden;
+	
+}
+
+nav{
+	background-color:#D4B203;
+	width:100%;
+	height:10%;
+}
+
+ul{
+	list-style:none;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	padding:0;
+	margin:0;
+}
+li{
+	line-height:40px;
+	height:100%;
+	width:25%;
+	float:left;
+}
+
+aside{
+	background-color:#666;
+	width:20%;
+	height:65%;
+	float:left;
+	text-align:center;
+	color:#FFF;
+}
+
+article{
+	background-color:#CCC;
+	width:80%;
+	height:65%;
+	float:left;
+}
+
+figure{
+	font-size:16px;
+	margin-left:30px;
+	text-align:center;
+}
+
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-style:oblique;
+	color:#FFF;
+}
+
+h2{
+	color:#000;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+p{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+footer{
+	background-color:#D4B203;
+	width:100%;
+	height:10%;
+	float:left;
+	text-align:center;
+	font-size:16px;
+}
