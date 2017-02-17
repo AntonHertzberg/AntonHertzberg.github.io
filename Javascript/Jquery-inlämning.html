@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jquery inlämning</title>
+  <style>
+  div {
+    position: absolute;
+    background-color: #abc;
+	left: 50px;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+	bottom: 50px;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<button id="left">Vänster</button>
+<button id="right">Höger</button>
+<button id="down">Ner</button>
+<button id="upwards">Upp</button>
+<div class="block"></div>
+ 
+<script>
+$( "#right" ).click(function() {
+  $( ".block" ).animate({ "left": "+=50px" }, "fast" );
+});
+ 
+$( "#left" ).click(function(){
+  $( ".block" ).animate({ "left": "-=50px" }, "fast" );
+});
+
+$( "#down" ).click(function(){
+  $( ".block" ).animate({ "bottom": "-=50px" }, "fast" );
+});
+
+$( "#upwards" ).click(function(){
+  $( ".block" ).animate({ "bottom": "+=50px" }, "fast" );
+});
+</script>
+ 
+</body>
+</html>
