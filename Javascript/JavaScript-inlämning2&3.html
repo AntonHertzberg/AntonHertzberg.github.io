@@ -18,16 +18,16 @@
 		{
 			var number=prompt("Write a number", "");
 		
-			if(isNaN(number) || number == "")
+			if(!isNaN(number))
 			{
-				alert("That's not a number!");
+				alert("Welcome to the site");
+				document.getElementById("changeNumber").innerHTML = number;
+				break;
 			}
 		
 			else
 			{
-				alert("Welcome to the site!");
-				document.getElementById("changeNumber").innerHTML = number;
-				break;
+				alert("That's not a number");
 			}
 		}
 	}
