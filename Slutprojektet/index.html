@@ -1,0 +1,109 @@
+  <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="Slutprojektet-CSS.css">
+<link rel="icon" href="Arsenal-icon.png">
+<title>Arsenal</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+</head>
+
+<body>
+	<div id="storbox">
+    	<header>
+        </header>
+        <div class="leftSidebar">
+        	<a href="index.html"><div class="arsenal"></div></a>
+            <ul>
+                <li class="current"><a href="index.html">HOME</a></li>
+            	<li><a href="First-team.html">TEAMS</a></li>
+                <li><a href="Fixtures.html">FIXTURES</a></li>
+                <li><a href="History.html">HISTORY</a></li>
+        	</ul>
+        </div>
+        <div class="goldLeft">
+        </div>
+        <article>
+            <div class="goldUp">
+        	</div>
+            <div class="scroll">
+        	<div class="slideshow-start">
+                <div class="mySlides fade">
+        		    <img src="Ozil-Start.jpg" alt="Olivier Giroud">
+                    <div class="caption">Mesut Özil</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="Alexis-Start.jpg" alt="Alexis Sanchez">
+                    <div class="caption">Alexis Sanchez</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="Henry-Start.jpg" alt="Alexis Sanchez">
+                    <div class="caption">Arsenal legend Thierry Henry</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="Giroud-Start.jpg" alt="Olivier Giroud">
+                    <div class="caption">Olivier Giroud</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+            <div class="boxStartDown">
+            	<div class="nextMatch">
+            		<h1>NEXT MATCH</h1>
+            		<h3>Sun 21st May 15.00 | Emirates stadium</h3>
+            	</div>
+            	<div class="matchInfo">
+            		<div class="logo-team">
+            			<img src="Arsenal-logoLiten.png" alt="Arsenal logo">
+            		</div>
+            		<div class="team-name">Arsenal</div>
+            		<div class="team-name">V</div>
+            		<div class="team-name">Everton</div>
+            		<div class="logo-team">
+            			<img src="Everton-logo.png" alt="Everton logo">
+            		</div>
+            		<div class="bpl-logo"></div>
+            	</div>
+			</div>
+        </div>
+        </article>
+        <aside>
+        </aside>
+        <div class="asideShadow">
+        </div>   
+	</div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1} 
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+        }
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block"; 
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+    <script>
+        $("#MobilMeny").click(function() {
+        $("#Droppmeny").slideToggle(225);
+    </script>
+</body>
+</html>
