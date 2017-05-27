@@ -250,12 +250,6 @@ html{
 	}
 
 	.nextfixtures{
-		height: 11%;
-		background-color: blue;
-	}
-
-	.nextfixtures:hover{
-		background-color: blue;
 		height: 12%;
 	}
 
@@ -663,6 +657,7 @@ img{
 	height: 80%;
 	width: 100%;
 	float: left;
+	background-color: #bdc1c9;
 }
 
 .date{
@@ -695,8 +690,7 @@ img{
 	display: inline-block;
 	margin-top: 3%;
 	margin-right: 30%;
-
-
+	background-color: #9b9da3;
 }
 
 .wheregame p{
