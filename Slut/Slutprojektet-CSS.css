@@ -1,0 +1,487 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	background-image:url(site-background.jpg);
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding: 0;
+}
+
+#storbox{
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+header{
+	background-color:#DB0007;
+	height:13%;
+	width:85%;
+	float:right;
+}
+
+.goldUp{
+	height:1%;
+	width:100%;
+	float:left;
+	background-color:#9C824A;
+}
+
+.leftSidebar{
+	background-color:#023475;
+	height:100%;
+	width:15%;
+	float:left;
+}
+
+article{
+	height:87%;
+	width:69%;
+	float:left;
+}
+
+.scroll{
+    width: 100%;;
+    height: 99%;
+    overflow-Y: scroll;
+	margin-top:0.5%;
+}
+
+.scroll a{
+	color: #DE0000;
+	font-style: underline;
+	font-size:3vh;
+}
+
+.scroll a:hover{
+	color: #DE0000;
+	font-style: underline;
+}
+
+aside{
+	background-color:#023475;
+	height:87%;
+	width:15%;
+	float:right;
+}
+
+aside li{
+	line-height: 3.5vh;
+}
+
+.asideShadow{	
+	background-color:#9C824A;
+	height:87%;
+	width:0.5%;
+	float:right;
+}
+
+.arsenal{
+	background-image:url(Arsenal-logowebb.png);
+	background-size:100% 100%;
+	width:9.3vw;
+	height:11vw;
+	float:left;
+	background-repeat:no-repeat;
+	padding:10px;
+	margin-left:15%;
+	margin-top:8%;
+}
+
+ul {
+	float:right;
+	text-align: left;
+	margin: 0;
+	padding:0px;
+ 	width: 100%;
+ 	height: 73%;
+ 	line-height: 5vh;
+	font-size: 2.5vh;
+	font-family: verdana;
+}
+
+ul li {
+	display: inline-block;
+	padding: 0 10px;
+	cursor: pointer;
+	transition: all 0.3s;
+	border-radius: 5px;
+	margin-left: 15%;
+	margin-top: 15%;
+}
+
+ul li:hover, .current {
+  background: #DE0000;
+  color: black;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+}
+
+a:hover{
+	color: black;
+}
+
+.slideshow-start{
+	position:relative;
+	margin-left: 13%;
+	margin-top: 2%;
+	width: 52vw;
+	height: 29vw;
+}
+
+.mySlides {
+	display:none;
+}
+
+.prev, .next {
+  	cursor: pointer;
+  	position: absolute;
+  	top: 50%;
+  	border-radius: 3px;
+  	width: 5%;
+  	height: 12%;
+  	margin-top: -1vw;
+  	padding: 1vw;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 1.4vw;
+  	transition: 0.5s ease;
+  	border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+}
+
+.caption{
+  	color: #000bf9;
+	font-size: 4vh;
+  	padding: 8px 12px;
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+	text-align: center;
+}
+
+.fade {
+  	animation-name: fade;
+  	animation-duration: 0.3s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .5} 
+  	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .5} 
+  	to {opacity: 1}
+}
+
+.goldLeft{
+	background-color:#9C824A;
+	height:87%;
+	width:0.5%;
+	float:left;
+}
+
+.boxStartDown{
+	width: 100%;
+	height: 32.4%;
+}
+
+.nextMatch{
+	width:100%;
+	height:20%;
+}
+
+.bpl-logo{
+	background-image: url(BPL-logo.png);
+	background-size: 100%, 100%;
+	width:10.4vw;
+	height:4.4vw;
+	float:right;
+	background-repeat:no-repeat;
+	margin-right: 2%;
+	margin-top: 1%;
+}
+
+h1{
+	text-align:center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 3vh;
+	margin-top: 2%;
+}
+
+.teampositions{
+	text-align: left;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 2.5vh;
+	height: 12%;
+	width: 20%;
+	margin-left: 2%;
+}
+
+h3{
+	margin-left:8%;
+	font-size:2vh;
+}
+
+.matchInfo{
+	width:80%;
+	height:80%;
+	float: right;
+}
+
+.logo-team{
+	background-size:100% 100%;
+	width: 6.25vw;
+	height: 6.25vw;
+	float:left;
+	background-repeat:no-repeat;
+	margin-left:5%;
+	margin-top:5%;
+}
+
+.team-name{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:2vw;
+	float: left;
+	margin-top: 8%;
+	margin-left: 3%;
+}
+
+.teambox{
+	width:95%;
+	height:24%;
+	float: right;
+}
+
+img{
+	max-width: 100%;
+}
+
+.teampics{
+	margin-left: 2%;
+	float:left;
+	height: 10vw;
+	width: 14vw;
+}
+
+.picteam{
+	margin-left: 5%;
+	width: 90%;
+	height: 81%;
+	position: relative;
+	color: rgba(0,0,0,0);
+}
+
+.picteam:hover{
+	opacity: .8;
+}
+
+.playerdesc{
+	color: rgba(0,0,0,0);
+	font-size: 2.7vh;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	word-wrap:break-word;
+}
+
+.playerdesc:hover{
+	color: #00ff04;
+	font-size: 2.6vh;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	word-wrap:break-word;	
+	margin-left: 3%;
+}
+
+.textFix{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 2vh;
+	text-align: center;
+}
+
+.featuredfixture{
+	width: 80%;
+	height: 26%;
+	float:right;
+}
+
+.nextfixtures{
+	width: 80%;
+	height: 15%;
+	float:right;
+	margin-top:2%;
+	background-color: #bdc1c9;
+}
+
+.nextteam{
+	height: 100%;
+	width: 35%;
+	float: left;
+	margin-left: 2%;
+}
+
+.nextteam p{
+	display: inline-block;
+	float: left;
+	font-size: 3vh;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	word-wrap:break-word;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.nextfixturebox{
+	height: 80%;
+	width: 100%;
+	float: left;
+}
+
+.date{
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+
+.date p{
+	display: inline-block;
+	float: left;
+	font-size: 2vh;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	word-wrap:break-word;
+	margin-left: 20%;
+	margin-top: 15%;
+}
+
+.competition{
+	display: inline-block;
+	float: right;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 2vh;
+	margin-right: 8%;
+}
+
+.wheregame{
+	width: 5%;
+	height: 45%;
+	display: inline-block;
+	margin-top: 3%;
+	margin-right: 30%;
+	text-align: center;
+	float: right;
+	font-size: 4vh;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	background-color: #9b9da3;
+}
+
+h4{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 2vh;
+	margin-left: 5%;
+	display: inline-block;
+}
+
+.historytext{
+	font-size: 2.2vh;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-left: 2%;
+	word-wrap:break-word;
+	margin-top: 1.5%;
+}
+
+#beginning{
+	text-align:center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 3vh;
+	margin-top: 1.5%;
+	font-weight: bold;
+}
+
+#chapman{
+	text-align:center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 3vh;
+	margin-top: 1.5%;
+	font-weight: bold;
+}
+
+#post-war{
+	text-align:center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 3vh;
+	margin-top: 1.5%;
+	font-weight: bold;
+}
+
+#seventies{
+	text-align:center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 3vh;
+	margin-top: 1.5%;
+	font-weight: bold;
+}
+
+#graham{
+	text-align:center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 3vh;
+	margin-top: 1.5%;
+	font-weight: bold;
+}
+
+#wenger{
+	text-align:center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 3vh;
+	margin-top: 1.5%;
+	font-weight: bold;
+	width: 100%;
+	background-color: red;
+}
+
+.MobilMeny{
+	width: 100%;
+	height: 50%;
+	z-index: 1;
+	background-color: #DE0000;
+}
+
+.Droppmeny{
+	width: 100%;
+	height: 50%;
+	z-index: 1;
+	background-color: #DE0000;
+}
