@@ -161,18 +161,26 @@ html{
 
 	.date{
 		height: 90%;
+		font-size: 12px;
 	}
 
 	.date p{
 		font-size: 12px;
 	}
 
+	.nextteam{
+		font-size: 14px;
+	}
 	.nextteam p{
-		font-size: 16px;
+		font-size: 14px;
+	}
+
+	.wheregame{
+		font-size: 15px;
 	}
 
 	.wheregame p{
-		font-size: 18px;
+		font-size: 15px;
 	}
 
 	h4{
@@ -255,14 +263,23 @@ html{
 
 	.date{
 		height: 90%;
+		font-size: 8px;
 	}
 
 	.date p{
-		font-size: 7px;
+		font-size: 8px;
+	}
+
+	.nextteam{
+		font-size: 12px;
 	}
 
 	.nextteam p{
 		font-size: 12px;
+	}
+
+	.wheregame{
+		font-size: 13px;
 	}
 
 	.wheregame p{
@@ -270,11 +287,11 @@ html{
 	}
 
 	h4{
-		font-size: 10px;
+		font-size: 1.3vh;
 	}
 
 	.competition{
-		font-size: 10px;
+		font-size: 1.3vh;
 	}
 }
 
@@ -681,7 +698,7 @@ img{
 	float: right;
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	font-size: 2vh;
-	margin-right: 8%;
+	margin-right: 5%;
 }
 
 .wheregame{
